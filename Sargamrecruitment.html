@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sargam Careers</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background: linear-gradient(180deg, #8B2D41, #A9445E);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .banner {
+            width: 90%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .domains {
+            font-size: 22px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .apply-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 20px;
+            font-weight: bold;
+            background: white;
+            color: #8B2D41;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        .apply-button:hover {
+            background: #A9445E;
+            color: white;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Sargam Careers</h1>
+    <img src="image.png" alt="We Are Hiring" class="banner">
+    <p class="domains">
+        Join our team in the following domains: <br>
+        🚀 Full Stack Web Developer <br>
+        📱 Social Media Handling <br>
+        🎯 Management
+    </p>
+    <a href="https://forms.gle/Aec3NBDBPomo8jrW9" target="_blank" class="apply-button">Apply Now</a>
+</body>
+</html>
